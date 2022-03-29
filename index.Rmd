@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## Resumen de encuestas que incluyen preguntas de campesinado
+## Resumen de encuestas con preguntas de campesinado
 
 
 
