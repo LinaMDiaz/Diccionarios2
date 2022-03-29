@@ -1,0 +1,81 @@
+---
+title: "Diccionario de datos Instituto de Estudios Interculturales"
+
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Resumen de encuestas que incluyen preguntas de campesinado
+
+
+
+ **Encuesta** | Pregunta campesinado| Registros muestra| Población factor expansión|  Desagregación geografica| Dimensiones| Resumen | Fuente| Año
+------------  |-------------------|-----------------------|---------------------|-----------------------------|------------|---------|-------|--------
+*Encuesta Cultura Politica (ECP)* | Dimensión: Caracteristicas 2. P2057	12. ¿Usted se considera campesino(a)? . P2059	13. ¿Usted considera que alguna vez fue campesino(a)?. P2061	14. ¿Usted considera que la comunidad en que vive es campesina?|  43.156 personas y 19.795 hogares | Personas 26,9 Millones en cabeceras y 7,1 Millones en centros poblados y rural disperso. 12 millones de hogares en cabecera y 3,3 millones en centros poblados y rural disperso   | Regional: Caribe, Central, Oriental, Bogota y Pacifico con capacidad de desagregar el departamento del cauca (se puede consultar por cabecera y resto)| Capital social, participación, elección de partidos, democracia, viviendas,  caracteristicas generales, caracteristicas2| Hogares y personas| https://microdatos.dane.gov.co/index.php/catalog/644/data_dictionary| 2019
+
+
+
+
+
+
+## Encuesta Nacional Agropecuaria
+
+ **Pregunta** | Dimensión Encuesta| Dimensión Organizativa| Dimensión productiva| Dimensión cultural|  Dimensión cultural| Dimensión territorial| Dimensión sociodemografica
+------------  |-------------------|-----------------------|---------------------|-------------------|--------------------|----------------------|---------------------------
+*10.2*        |                   |                       |                     |                   |                    |Cuantas fincas o UPAS tiene el productor en este departamento.|
+*13*          |                   |                       |                     |                   |                    |Dificultad para la realización de la encuesta|
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Base Casos CNMH 
+
+Esta base de datos agrega el total de victímas por codigo del caso, teniendo en cuenta fecha del evento y relacionadas a los responsables.
+
+
+
+Table:  Variables Casos
+
+ **Variable** |  **Descripción** | 
+----------------------| ----------------------|
+*Abandono despojo* | Si/No
+*Cabecera municipal* | Si/No
+*Territorio Colectivo* | Nombre del territorio
+*Resguardo indigena* | Nombre del resguardo
+*Tipo de accción modalidad* | Tipo de acción principal entre el ametrallamiento desde el aire,ataque e instalación de las Fuerzas Armados estatales, combate, hostigamiento, reunión pública, falso positivo,bombardeo ,combate.
+*Otro Hecho simultaneo* | Estigmatización, Paro armado, Detención (arbitraria ilegal), Coacción venta de terrenos, Cobro de Vacunas, falso positivo, hurto de tierras.
+
+
+Las modalidades de violencia que conforman ataques contra la población civil se organizan en tres grandes categorías: integridad física y la vida, la libertad y los bienes. A continuación se detallan variables de las Bases que describen cada uno de estos componentes:
+
+*Integridad fisica y a la vida*
+
+ **Nombre** |  **Descripción** | Variables| Base
+------------|------------------|----------|------|
+*Amenaza e intimidación* | manifiestación expresa|amenaza intimidación|Casos
+*Asesinato Selectivo* | Homicidio intencional de tres o menos personas|Hecho|casos
+
+
+## Bases Víctimas CNMH
+
+
+
+
